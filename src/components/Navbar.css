@@ -1,0 +1,41 @@
+/* File name: Navbar.css */
+/* Author: Muhammad Raza */
+/* Student ID: 301209703 */
+/* Date: September 25, 2024 */
+/* Description: This file contains the styling for the Navbar component */
+
+/* Logo styling */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styling for the navigation bar */
+nav {
+  background-color: #f8f9fa;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styling for the navigation links */
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+ul li {
+  display: inline;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
